@@ -13,8 +13,11 @@ The data is transformed into a star schema, with the aim of minimizing JOIN oper
 The following tables are included in the schema:
 
 Fact Table
+
     songplays - records in event data associated with song plays
+    
 Dimension Tables
+
     users - users in the app
     songs - songs in music database
     artists - artists in music database
