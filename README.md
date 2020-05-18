@@ -1,7 +1,7 @@
 # Data warehouse with AWS S3 and Redshift for analytics
 
 In this project, AWS S3 and Redshift are used to build an ETL pipeline for storing song and user data in a Data Warehouse that is
-optimized for analytics, thus enabling the user to continue finding insights in what songs their users are listening to.
+optimized for analytics, thus enabling the platform owner to continue finding insights in what songs their users are listening to.
 
 The pipeline extracts information about songs, artists and events that are stored as JSON files in two S3 buckets. It then stages the
 data in Redshift and transforms it into a star schema'ed Data Warehouse.
